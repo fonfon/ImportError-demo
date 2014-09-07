@@ -4,8 +4,7 @@ The cause is `os.chdir()` followed by a package-intern import, see
 problem.
 
 For me this ImportError was hard to debug and the available information rather
-sparse. The original issue is described at 
-http://stackoverflow.com/questions/25641003/how-to-debug-importerror-with-sys-path-being-correct
+sparse. The original issue is described at [StackOverflow](http://stackoverflow.com/questions/25641003/how-to-debug-importerror-with-sys-path-being-correct).
 
 ## Usage
 Clone the repository. Get the ImportError with:
